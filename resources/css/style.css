@@ -2,7 +2,7 @@ body {
     background-color: #000000;
     color: white;
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana;
     margin: 0;
     padding: 0;
 }
@@ -11,45 +11,31 @@ body {
     font-weight: normal;
     font-size: 50px;
     color: #ffffff;
-    margin: 20px 0;
 }
 
 .header--secondary {
     font-weight: 300;
     font-size: 42px;
     color: #ffffff;
-    margin: 10px 0;
 }
 
 .header--sub-header {
     font-size: 21px;
     color: gray;
-    margin: 10px 0;
 }
 
 .header--action {
     font-size: 16px;
     color: aquamarine;
-    display: inline-block;
-    margin: 15px 0;
-    text-decoration: underline;
-}
-
-img, video {
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
 }
 
 .footer--copy {
     font-size: 21px;
     color: grey;
-    text-align: center;
-    margin-top: 30px;
+    text-align: right;
 }
 
 
-/* Responsive Design for Mobile */
 @media (max-width: 768px) {
     body {
         padding: 10px;
@@ -73,8 +59,18 @@ img, video {
         margin: 10px 0;
     }
 
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
     .footer--copy {
-        text-align: center;
+        text-align: right; 
         font-size: 16px;
         margin-top: 20px;
     }

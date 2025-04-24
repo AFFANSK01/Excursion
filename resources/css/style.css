@@ -10,6 +10,17 @@ body{
     font-size: 50px;
     color: #ffffff;
 }
+ 
+.header--secondary{
+    font-weight: 300;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.header--sub-header{
+    font-size: 21px;
+    color: gray;
+}
 
 .header--action{
     font-size: 16px;
